@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  max-width: 100%;
+}
+
+nav {
+  max-width: 80%;
+  margin: auto;
+}
+
+.collapse {
+  justify-content: flex-end;
+  font-size: 12px;
+}
+
+#parents {
+  background-image: url(/assets/img/slider-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  min-height: 600px;
+  padding: 20px;
+}
+#parents .container {
+  padding: 20px;
+  margin-top: 20px;
+}
+#parents .row {
+  padding: 20px;
+  margin-top: 20px;
+}
+#parents .parents {
+  padding: 20px;
+  margin: 20px;
+  max-width: 40%;
+}
+#parents .parents button {
+  background-color: #BC5148;
+  color: white;
+}
+#stepsAdopt .imgDiv {
+  padding: 20px;
+}
+#stepsAdopt .imgDiv img {
+  max-width: 70%;
+  min-height: 300px;
+}
+#stepsAdopt .imgDiv p {
+  font-size: 12px;
+  max-width: 70%;
+  padding: 20px;
+}
+#stepsAdopt .imgDiv button {
+  background-color: white;
+  border: 2px solid #BC5148;
+}
+#stepsAdopt .steps h4 {
+  padding: 20px;
+}
+#stepsAdopt .steps .input-group {
+  padding: 5px;
+}
+
+#waiting {
+  text-align: center;
+  padding: 20px;
+}
+#waiting .waiting {
+  text-align: center;
+}
+#waiting h3 {
+  padding: 20px;
+}
+#waiting p {
+  width: 60%;
+  margin: auto;
+  padding: 20px;
+}
+#waiting button {
+  background-color: #BC5148;
+  border: 2px solid #BC5148;
+  color: white;
+  max-width: 600px;
+  min-height: 40px;
+}
+
+#child img {
+  max-width: 100%;
+}
